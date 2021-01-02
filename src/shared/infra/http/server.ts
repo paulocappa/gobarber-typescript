@@ -10,6 +10,7 @@ import routes from './routes';
 import errorMiddleware from './middlewares/error';
 
 import '../typeorm';
+import '../../container';
 
 const app = express();
 

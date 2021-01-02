@@ -7,7 +7,7 @@
   "database": "bootcamp_gobarber",
   "logging": false,
   "entities": [
-    "./src/models/*.ts"
+    "./src/modules/**/infra/typeorm/entities/*.ts"
   ],
   "migrations": [
 		"./src/shared/infra/typeorm/migrations/*.ts"
