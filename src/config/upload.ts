@@ -7,6 +7,8 @@ const tmpFolder = resolve(__dirname, '..', '..', 'tmp');
 export default {
   tmpFolder,
 
+  uploadsFolder: resolve(tmpFolder, 'uploads'),
+
   storage: multer.diskStorage({
     destination: tmpFolder,
     filename: (req, file, callback) => {
